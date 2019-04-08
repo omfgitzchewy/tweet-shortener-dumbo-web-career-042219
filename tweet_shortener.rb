@@ -9,3 +9,12 @@ def dictionary
     "and" => "&"
   }
 end
+
+def word_substituter(str)
+  arr = str.split(" ")
+  arr.map do |word|
+    if dictionary.include?(word)
+      dictionary.keys[word] : word
+    end
+  end
+end
