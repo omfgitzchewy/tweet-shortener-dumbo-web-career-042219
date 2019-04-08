@@ -18,6 +18,6 @@ end
 
 def bulk_tweet_shortener(arr)
   arr.to_s.each do |tweet|
-    
+
   end
 end
