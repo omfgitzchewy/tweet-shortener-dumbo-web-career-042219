@@ -17,4 +17,5 @@ def word_substituter(str)
       dictionary.keys[word] : word
     end
   end
+  arr
 end
