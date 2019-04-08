@@ -18,4 +18,5 @@ def word_substituter(str)
     end
   end
   arr.join(" ")
+  arr
 end
