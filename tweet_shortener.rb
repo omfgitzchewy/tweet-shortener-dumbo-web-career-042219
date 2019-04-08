@@ -21,4 +21,5 @@ def bulk_tweet_shortener(arr)
   arr.each do |tweet|
     final << word_substituter(tweet)
   end
+  puts final
 end
