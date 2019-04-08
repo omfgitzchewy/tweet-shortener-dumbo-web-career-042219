@@ -18,6 +18,6 @@ end
 
 def bulk_tweet_shortener(arr)
   arr.to_s.map do |tweet|
-    word_substituter(tweet)
+    p word_substituter(tweet)
   end
 end
