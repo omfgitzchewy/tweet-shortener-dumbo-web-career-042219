@@ -15,3 +15,8 @@ def word_substituter(str)
   arr.map! {|word| dictionary.keys.include?(word) ? dictionary[word] : word}
   arr.join(" ")
 end
+
+def bulk_tweet_shortener(arr)
+  puts arr.word_substituter
+
+end
