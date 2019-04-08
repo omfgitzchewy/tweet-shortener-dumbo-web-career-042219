@@ -17,6 +17,6 @@ def word_substituter(str)
 end
 
 def bulk_tweet_shortener(arr)
-  shortened = arr.word_substituter
-  p shortened
+  p arr.word_substituter(arr)
+
 end
