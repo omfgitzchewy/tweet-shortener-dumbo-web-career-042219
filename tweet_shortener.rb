@@ -12,6 +12,6 @@ end
 
 def word_substituter(str)
   arr = str.split(" ")
-  arr.collect {|word| dictionary.keys.include?(word) ? dictionary[word] : word}
+  arr.collect! {|word| dictionary.keys.include?(word) ? dictionary[word] : word}
   arr.join(" ")
 end
