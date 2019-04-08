@@ -13,8 +13,8 @@ end
 def word_substituter(str)
   arr = str.split(" ")
   arr.map do |word|
-    
+
   end
   arr.join(" ")
-  arr
+
 end
