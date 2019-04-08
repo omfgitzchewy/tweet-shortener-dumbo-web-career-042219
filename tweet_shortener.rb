@@ -13,7 +13,7 @@ end
 def word_substituter(str)
   arr = str.split(" ")
   arr.map do |word|
-    dictionary.keys.include?(word) ? dictionary[word] : word
+    (dictionary.keys).include?(word) ? dictionary[word] : word
   end
   arr.join(" ")
 end
