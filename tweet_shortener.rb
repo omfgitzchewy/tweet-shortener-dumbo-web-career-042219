@@ -14,7 +14,7 @@ def word_substituter(str)
   arr = str.split(" ")
   arr.map do |word|
     dictioary.keys.include?(word) ?
-      dictionary[word]
+      dictionary[word] : word
   end
   arr.join(" ")
 end
